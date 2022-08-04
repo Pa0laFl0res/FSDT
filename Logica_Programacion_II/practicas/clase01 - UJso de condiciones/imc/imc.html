@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function br(){
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+			
+function print(phrase){
+	document.write(phrase);
+	br();
+
+}
+
+function calculateImc(weight, height){
+	return (weight / (height * height));
+
+}
+
+
+
+name = prompt("informe su nombre")
+weightInfo = prompt("informe su peso")
+heightInfo = prompt("informe su altura")
+
+imcCalculated = calculateImc(weightInfo, heightInfo)
+
+print(name + " , su IMC calculado es: " + imcCalculated);
+
+
+//print("toma chango tu banana");
+
+
+
+ 
+
+</script>
