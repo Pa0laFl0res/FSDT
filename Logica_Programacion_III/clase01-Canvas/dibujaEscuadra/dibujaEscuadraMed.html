@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<canvas width = "600" height = "400"></canvas>
+
+
+<script>
+	var screen = document.querySelector("canvas");
+	var pincel = screen.getContext("2d");
+
+
+	pincel.beginPath();
+	pincel.moveTo(50,50);
+	pincel.lineTo(50, 400);
+	pincel.lineTo(400,400);
+	pincel.fill();
+
+	//sigue blanco
+
+	pincel.fillStyle = "white";
+	pincel.beginPath();
+	pincel.moveTo(90,150);
+	pincel.lineTo(90, 360);
+	pincel.lineTo(300,360);
+	pincel.fill();
+
+
+
+
+
+</script>
