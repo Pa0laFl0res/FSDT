@@ -1,0 +1,73 @@
+body{
+    background:#FFFFFF;
+}
+
+header{
+    padding-left: 30px;
+
+}
+/*
+.main-title{
+    padding-left: 30px;
+}*/
+
+#main-title{
+    padding-left: 30px;
+    /*font-family:url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");*/
+    
+}
+
+#banner{
+    width: 100%;
+
+}
+
+.about{
+background-color: #CCCCCC;
+padding: 20px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.about-title{
+    text-align: center; 
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:darkmagenta;
+}
+
+#mission{
+    font-size: 20px;
+}
+
+.dife-title{
+    text-align: center;
+}
+
+.diferentials{
+    /*background: linear-gradient(90deg, rgb(178, 179, 180) 25%, rgba(0, 0, 0, 0.971) 75%);*/
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
+}
+
+.diferentialimg{
+    width: 50%;
+    padding-left: 5rem;
+    background-image: linear-gradient(90deg, #b1b9b9 30%, #5b5b62 15%, #000000 55%);
+}
+

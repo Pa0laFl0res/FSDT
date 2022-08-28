@@ -1,0 +1,117 @@
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0;
+    
+}
+
+.box-header{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+    
+
+}
+
+nav li{
+    display: inline-block; /*tamaño de su contenido*/
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:cadetblue;
+    text-decoration: underline;
+    font-size: 25px;
+    /*
+    background-color: rgb(78, 57, 152);
+    color: rgb(235, 231, 231);
+    width: 95px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-left: 10px;
+    box-shadow: 0px 5px 8px rgba(118, 106, 185, 0.3);
+    font-size: 15px;
+    margin-top: 12px;
+    margin-right: 20px;
+    text-align: center;*/
+}
+
+.products-list{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.products-list li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+    border-radius: 10px;
+}
+
+.products-list li:hover{
+    border-color:rgb(112, 140, 216);
+
+}
+
+.products-list li:active{
+    border-color:goldenrod;
+}
+
+.products-list h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.products-list li:hover h2{
+    font-size: 33px;
+
+}
+
+.product-description{
+    font-size: 18px;
+}
+
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("./imagenes/bg.jpg");
+    padding: 40px;
+}
+
+.footer-copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

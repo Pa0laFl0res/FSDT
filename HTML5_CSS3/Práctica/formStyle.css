@@ -1,0 +1,140 @@
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0;
+    
+}
+
+.box-header{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+    
+
+}
+
+nav li{
+    display: inline-block; /*tamaño de su contenido*/
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:cadetblue;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0, 0, 10px;
+
+}
+/*
+form input, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}*/
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+legend{
+    color:#295687;
+    font-family: 'Segoe UI';
+
+}/*aun mayor 0*/
+
+.date{
+    margin: 20px;
+}
+
+.dateTime{
+    margin: 0 20px;
+}
+
+.button{
+    padding: 10px 0;
+    width: 20%;
+    margin:10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    background:orange;
+    border-radius: 5px;
+    border: none;
+    transition: 1s background;
+    /*transition: 1s all;*/
+    cursor: pointer;
+}
+
+.button:hover{
+    background: darkorange;
+    transform: scale(1.2) /*rotate(1deg)*/;
+    
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+footer{
+    text-align: center;
+    background: url("./imagenes/bg.jpg");
+    padding: 40px;
+}
+
+.footer-copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
