@@ -1,3 +1,3 @@
-# PP T3 ONE
+# Principiante de Programación G3 ONE
 
 ## Prácticas 
